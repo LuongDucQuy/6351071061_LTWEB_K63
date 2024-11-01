@@ -1,0 +1,48 @@
+﻿@model THWebBookStore.Models.SACH
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center mb-4">Chi tiết Sách</h2>
+    <div class="card">
+        <div class="card-header">
+            <h4>@Html.DisplayFor(model => model.Tensach)</h4>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="~/Content/img/@Model.Anhbia" alt="@Model.Tensach" class="img-fluid" />
+                </div>
+                <div class="col-md-8">
+                    <dl class="row">
+                        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Masach)</dt>
+                        <dd class="col-sm-9">@Html.DisplayFor(model => model.Masach)</dd>
+
+                        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Giaban)</dt>
+                        <dd class="col-sm-9">@Html.DisplayFor(model => model.Giaban)</dd>
+
+                        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Mota)</dt>
+                        <dd class="col-sm-9">@Html.DisplayFor(model => model.Mota)</dd>
+
+                        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Ngaycapnhat)</dt>
+                        <dd class="col-sm-9">@Html.DisplayFor(model => model.Ngaycapnhat)</dd>
+
+                        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Soluongton)</dt>
+                        <dd class="col-sm-9">@Html.DisplayFor(model => model.Soluongton)</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer text-muted text-center">
+            <p>
+                @Html.ActionLink("Edit", "Edit", new { id = Model.Masach }, new { @class = "btn btn-primary" }) |
+                @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-secondary" })
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Include Bootstrap CSS for styling -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
