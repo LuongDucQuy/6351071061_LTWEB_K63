@@ -1,7 +1,7 @@
 ﻿@model THWebBookStore.Models.SACH
 
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = "Chi tiết Sách";
 }
 
 <div class="container mt-4">
@@ -17,19 +17,16 @@
                 </div>
                 <div class="col-md-8">
                     <dl class="row">
-                        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Masach)</dt>
-                        <dd class="col-sm-9">@Html.DisplayFor(model => model.Masach)</dd>
+                        <dt class="col-sm-3">Tên sách</dt>
+                        <dd class="col-sm-9">@Html.DisplayFor(model => model.Tensach)</dd>
 
-                        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Giaban)</dt>
-                        <dd class="col-sm-9">@Html.DisplayFor(model => model.Giaban)</dd>
-
-                        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Mota)</dt>
+                        <dt class="col-sm-3">Mô tả</dt>
                         <dd class="col-sm-9">@Html.DisplayFor(model => model.Mota)</dd>
 
-                        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Ngaycapnhat)</dt>
-                        <dd class="col-sm-9">@Html.DisplayFor(model => model.Ngaycapnhat)</dd>
+                        <dt class="col-sm-3">Giá bán</dt>
+                        <dd class="col-sm-9">@Html.DisplayFor(model => model.Giaban)</dd>
 
-                        <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Soluongton)</dt>
+                        <dt class="col-sm-3">Số lượng tồn</dt>
                         <dd class="col-sm-9">@Html.DisplayFor(model => model.Soluongton)</dd>
                     </dl>
                 </div>
@@ -37,8 +34,8 @@
         </div>
         <div class="card-footer text-muted text-center">
             <p>
-                @Html.ActionLink("Edit", "Edit", new { id = Model.Masach }, new { @class = "btn btn-primary" }) |
-                @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-secondary" })
+                @Html.ActionLink("Chỉnh sửa", "Edit", new { id = Model.Masach }, new { @class = "btn btn-primary" }) |
+                @Html.ActionLink("Quay lại danh sách", "Index", null, new { @class = "btn btn-secondary" })
             </p>
         </div>
     </div>

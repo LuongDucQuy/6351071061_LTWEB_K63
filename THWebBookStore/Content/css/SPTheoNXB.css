@@ -1,0 +1,103 @@
+﻿.featured-product {
+    padding: 30px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.product-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+}
+
+    .product-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    }
+
+.product-title {
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.2em;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+    .product-title a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .product-title .ratting {
+        margin-top: 5px;
+    }
+
+        .product-title .ratting i {
+            color: #ffd700; /* Màu vàng cho sao */
+        }
+
+.product-image {
+    padding: 10px;
+}
+
+    .product-image img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+.product-action {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+    .product-action a {
+        color: #fff;
+        background-color: #007bff;
+        border-radius: 50%;
+        padding: 8px;
+        margin: 2px 0;
+        transition: background-color 0.3s;
+    }
+
+        .product-action a:hover {
+            background-color: #0056b3;
+        }
+
+.product-price {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+
+    .product-price h3 {
+        margin: 0;
+        color: #28a745; /* Màu xanh cho giá */
+        font-size: 1.5em;
+    }
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+    .btn:hover {
+        background-color: #218838;
+    }
