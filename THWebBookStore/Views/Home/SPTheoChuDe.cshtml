@@ -2,10 +2,23 @@
 @{
     ViewBag.Title = "SPTheoChuDe";
 }
-<link href="~/Content/css/SPTheoNXB.css" rel="stylesheet" />
 <div class="header">
     <div class="container-fluid">
         <div class="row">
+            <div class="col-md-3">
+                <h5>CHỦ ĐỀ</h5>
+                <nav class="navbar bg-light mb-4">
+                    @if (ViewBag.chude != null)
+                    {
+                        foreach (var chudes in ViewBag.chude)
+                        {
+                            <a href="@Url.Action("SPTheoChuDe", "Home", new { id = chudes.MaCD })" class="dropdown-item">
+                                @chudes.TenChuDe
+                            </a>
+                        }
+                    }
+                </nav>
+            </div>
             <div class="col-md-9">
                 <div class="featured-product product">
                     <div class="row align-items-stretch product-slider product-slider-9">
@@ -14,7 +27,7 @@
                             <div class="col-lg-3 d-flex">
                                 <div class="product-item">
                                     <div class="product-title">
-                                        <a href="#">@sach.Tensach</a>
+                                        <a href="@Url.Action("Details", "Home", new { id = sach.Masach })">@sach.Tensach</a>
                                         <div class="ratting">
                                             <i class="fa fa-star"></i>
                                             <i class="fa fa-star"></i>
@@ -24,12 +37,9 @@
                                         </div>
                                     </div>
                                     <div class="product-image">
-                                        <li>
-                                            <a href="@Url.Action("Details", "BookStore", new { id = sach.Masach })">
-                                                <img alt="" src="~/Content/img/@sach.Anhbia">
-                                                <span>@sach.Tensach</span>
-                                            </a>
-                                        </li>
+                                        <a href="#">
+                                            <img alt="@sach.Tensach" src="~/Content/img/@sach.Anhbia">
+                                        </a>
                                         <div class="product-action">
                                             <a href="#"><i class="fa fa-cart-plus"></i></a>
                                             <a href="#"><i class="fa fa-heart"></i></a>
@@ -37,8 +47,8 @@
                                         </div>
                                     </div>
                                     <div class="product-price">
-                                        <h3><span>$</span>99</h3>
-                                        <a class="btn" href="#"><i class="fa fa-shopping-cart"></i>Buy Now</a>
+                                        <h3>@String.Format("{0:0,0}", sach.Giaban)<span>VND</span></h3>
+                                        <a class="btn" href="@Url.Action("Details", "Home", new { id = sach.Masach })"><i class="fa fa-shopping-cart"></i>Buy Now</a>
                                     </div>
                                 </div>
                             </div>

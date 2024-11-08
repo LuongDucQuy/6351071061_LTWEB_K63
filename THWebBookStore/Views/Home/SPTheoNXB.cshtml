@@ -2,44 +2,62 @@
 @{
     ViewBag.Title = "SPTheoNXB";
 }
-<link href="~/Content/css/SPTheoNXB.css" rel="stylesheet" />
-<div class="col-md-9">
-    <div class="featured-product product">
-        <div class="row align-items-stretch product-slider product-slider-9">
-            @foreach (var sach in Model)
-            {
-                <div class="col-lg-3 d-flex">
-                    <div class="product-item">
-                        <div class="product-title">
-                            <a href="#">@sach.Tensach</a>
-                            <div class="ratting">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
+<div class="header">
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-3">
+                <h5>NHÀ XUẤT BẢN</h5>
+                <!-- Column for Publishers -->
+                <nav class="navbar bg-light">
+                    @if (ViewBag.nhaXB != null)
+                    {
+                        foreach (var nhaXBs in ViewBag.nhaXB)
+                        {
+                            <a href="@Url.Action("SPTheoNXB", "Home", new { id = nhaXBs.MaNXB })" class="dropdown-item">
+                                @nhaXBs.TenNXB
+                            </a>
+                        }
+                    }
+                </nav>
+            </div>
+            <div class="col-md-9">
+                <div class="featured-product product">
+                    <div class="row align-items-stretch product-slider product-slider-9">
+                        @foreach (var sach in Model)
+                        {
+                            <div class="col-lg-3 d-flex">
+                                <div class="product-item">
+                                    <div class="product-title">
+                                        <a href="@Url.Action("Details", "Home", new { id = sach.Masach })">@sach.Tensach</a>
+                                        <div class="ratting">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="product-image">
+                                        <a href="#">
+                                            <img alt="@sach.Tensach" src="~/Content/img/@sach.Anhbia">
+                                        </a>
+                                        <div class="product-action">
+                                            <a href="#"><i class="fa fa-cart-plus"></i></a>
+                                            <a href="#"><i class="fa fa-heart"></i></a>
+                                            <a href="#"><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="product-price">
+                                        <h3>@String.Format("{0:0,0}", sach.Giaban)<span>VND</span></h3>
+                                        <a class="btn" href="@Url.Action("Details", "Home", new { id = sach.Masach })"><i class="fa fa-shopping-cart"></i>Buy Now</a>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="product-image">
-                            <li>
-                                <a href="@Url.Action("Details", "BookStore", new { id = sach.Masach })">
-                                    <img alt="" src="~/Content/img/@sach.Anhbia">
-                                    <span>@sach.Tensach</span>
-                                </a>
-                            </li>
-                            <div class="product-action">
-                                <a href="#"><i class="fa fa-cart-plus"></i></a>
-                                <a href="#"><i class="fa fa-heart"></i></a>
-                                <a href="#"><i class="fa fa-search"></i></a>
-                            </div>
-                        </div>
-                        <div class="product-price">
-                            <h3><span>$</span>99</h3>
-                            <a class="btn" href="#"><i class="fa fa-shopping-cart"></i> Buy Now</a>
-                        </div>
+                        }
                     </div>
                 </div>
-            }
+            </div>
         </div>
     </div>
-    </di
+</div>

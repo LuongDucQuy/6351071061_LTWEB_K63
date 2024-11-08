@@ -1,4 +1,6 @@
-﻿@model IEnumerable<THWebBookStore.Models.SACH>
+﻿@using THWebBookStore.Models
+@using PagedList.Mvc;
+@model PagedList.PagedList<SACH>
 @{
     ViewBag.Title = "Home Page";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -77,10 +79,9 @@
                                         </div>
                                     </div>
                                     <div class="product-image">
-                                            <a href="#">
-                                                <img alt="@sach.Tensach" src="~/Content/img/@sach.Anhbia">
-                                                <span>@sach.Tensach</span>
-                                            </a>
+                                        <a href="#">
+                                            <img alt="@sach.Tensach" src="~/Content/img/@sach.Anhbia">
+                                        </a>
                                         <div class="product-action">
                                             <a href="#"><i class="fa fa-cart-plus"></i></a>
                                             <a href="#"><i class="fa fa-heart"></i></a>
@@ -88,22 +89,72 @@
                                         </div>
                                     </div>
                                     <div class="product-price">
-                                        <h3><span>$</span>99</h3>
-                                        <a class="btn" href="#"><i class="fa fa-shopping-cart"></i>Buy Now</a>
+                                        <h3>@String.Format("{0:0,0}", sach.Giaban)<span>VND</span></h3>
+                                        <a class="btn" href="@Url.Action("Details", "Home", new { id = sach.Masach })"><i class="fa fa-shopping-cart"></i>Buy Now</a>
                                     </div>
                                 </div>
                             </div>
                         }
                     </div>
                 </div>
+                @*<div style="display: flex; justify-content: center;">
+                    Trang @(Model.PageCount<Model.PageNumber?0:Model.PageNumber)/@Model.PageCount
+                </div>
+                <div class="MenuTrang">
+                    @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
+                </div>*@
             </div>
         </div>
     </div>
 </div>
+
+
+<style>
+    /* Container phân trang */
+    .MenuTrang {
+        display: flex;
+        justify-content: center; /* Căn giữa các item */
+        margin-top: 20px;
+    }
+
+        /* Mỗi item trong phân trang */
+        .MenuTrang li {
+            display: inline-block;
+            margin: 0 5px;
+            padding: 5px 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            background-color: #f4f4f4;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+            /* Hiệu ứng hover cho item */
+            .MenuTrang li:hover {
+                background-color: #007bff;
+                color: white;
+            }
+
+        /* Trang hiện tại */
+        .MenuTrang .active {
+            background-color: #007bff;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* Kiểu cho liên kết */
+        .MenuTrang a {
+            text-decoration: none;
+            color: inherit;
+        }
+</style>
+
 <!-- Main Slider and Featured Product End -->
 <!-- Featured Product End -->
 <!-- Brand Start -->
-<div class="brand">
+
+<div class="brand" style="margin-top: 200px;">
     <div class="container-fluid">
         <div class="brand-slider">
             <div class="brand-item"><img src="~/Content/img/brand-1.png" alt=""></div>

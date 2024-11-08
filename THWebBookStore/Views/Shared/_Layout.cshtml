@@ -18,6 +18,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="~/Content/lib/slick/slick.css" rel="stylesheet">
     <link href="~/Content/lib/slick/slick-theme.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
     <!-- Template Stylesheet -->
     <link href="~/Content/css/style.css" rel="stylesheet">
@@ -48,10 +50,9 @@
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav mr-auto">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="~/Home/Index" class="nav-item nav-link active">Home</a>
                         <a href="product-list.html" class="nav-item nav-link">Products</a>
                         <a href="product-detail.html" class="nav-item nav-link">Product Detail</a>
                         <a href="cart.html" class="nav-item nav-link">Cart</a>
@@ -66,12 +67,28 @@
                             </div>
                         </div>
                     </div>
-                    <div class="navbar-nav ml-auto">
+                    <div class="navbar-nav mr-5">
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">User Account</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                <i class="fa fa-user fa-fw"></i>
+                                <span class="d-none d-sm-inline">
+                                    <!-- Hiển thị tên người dùng nếu đã đăng nhập -->
+                                    @if (Session["UserName"] != null)
+                                    {
+                                        <span>@Session["UserName"]</span> <!-- Hiển thị tên đăng nhập -->
+                                    }
+                                </span>
+                            </a>
                             <div class="dropdown-menu">
-                                <a href="#" class="dropdown-item">Login</a>
-                                <a href="#" class="dropdown-item">Register</a>
+                                @if (Session["Taikhoan"] != null)
+                                {
+                                    <a href="@Url.Action("DangXuat", "NguoiDung")" class="dropdown-item">Logout</a>
+                                }
+                                else
+                                {
+                                    <a href="@Url.Action("DangNhap", "NguoiDung")" class="dropdown-item">Đăng nhập</a>
+                                    <a href="@Url.Action("DangKy", "NguoiDung")" class="dropdown-item">Đăng kí</a>
+                                }
                             </div>
                         </div>
                     </div>
@@ -97,15 +114,10 @@
                         <button><i class="fa fa-search"></i></button>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <div class="user">
-                        <a href="wishlist.html" class="btn wishlist">
-                            <i class="fa fa-heart"></i>
-                            <span>(0)</span>
-                        </a>
-                        <a href="cart.html" class="btn cart">
-                            <i class="fa fa-shopping-cart"></i>
-                            <span>(0)</span>
+                        <a href="@Url.Action("GioHang", "GioHang")" class="btn cart">
+                            <i class="fa fa-shopping-cart" style="margin-right: 5px;"></i> Giỏ hàng (@(@ViewBag.TongSoLuong ?? 0))
                         </a>
                     </div>
                 </div>
@@ -115,7 +127,7 @@
     <!-- Bottom Bar End -->
 
     @RenderBody()
-    
+
     <!-- Footer Start -->
     <div class="footer">
         <div class="container-fluid">
@@ -217,3 +229,18 @@
     <script src="~/Script/js/main.js"></script>
 </body>
 </html>
+<script>
+    $(document).ready(function () {
+        // Gọi phương thức để lấy tổng số lượng và cập nhật hiển thị giỏ hàng
+        $.ajax({
+            url: '@Url.Action("GetTongSoLuong", "GioHang")',
+            type: 'GET',
+            success: function (response) {
+                $('.btn.cart').html('<i class="fa fa-shopping-cart" style="margin-right: 5px;"></i> Giỏ hàng (' + response.TongSoLuong + ')');
+            },
+            error: function () {
+                console.log("Không thể tải tổng số lượng giỏ hàng");
+            }
+        });
+    });
+</script>

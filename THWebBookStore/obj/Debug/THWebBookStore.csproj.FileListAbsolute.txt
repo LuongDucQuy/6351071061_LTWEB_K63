@@ -72,3 +72,7 @@ C:\Users\luong\source\repos\THWebBookStore\THWebBookStore\obj\Debug\THWebBookSto
 C:\Users\luong\source\repos\THWebBookStore\THWebBookStore\obj\Debug\THWebBookStore.pdb
 C:\Users\luong\source\repos\THWebBookStore\THWebBookStore\bin\EntityFramework.dll
 C:\Users\luong\source\repos\THWebBookStore\THWebBookStore\bin\EntityFramework.xml
+C:\Users\luong\source\repos\THWebBookStore\THWebBookStore\bin\PagedList.dll
+C:\Users\luong\source\repos\THWebBookStore\THWebBookStore\bin\PagedList.Mvc.dll
+C:\Users\luong\source\repos\THWebBookStore\THWebBookStore\bin\PagedList.xml
+C:\Users\luong\source\repos\THWebBookStore\THWebBookStore\bin\PagedList.Mvc.xml
