@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|c:\\users\\luong\\source\\repos\\thwebbookstore\\thwebbookstore\\views\\giohang\\dathang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|solutionrelative:thwebbookstore\\views\\giohang\\dathang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|c:\\users\\luong\\source\\repos\\thwebbookstore\\thwebbookstore\\views\\admin\\sach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|solutionrelative:thwebbookstore\\views\\admin\\sach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|c:\\users\\luong\\source\\repos\\thwebbookstore\\thwebbookstore\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|solutionrelative:thwebbookstore\\controllers\\giohangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|c:\\users\\luong\\source\\repos\\thwebbookstore\\thwebbookstore\\views\\admin\\themmoisach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|solutionrelative:thwebbookstore\\views\\admin\\themmoisach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|c:\\users\\luong\\source\\repos\\thwebbookstore\\thwebbookstore\\views\\giohang\\xacnhandonhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|solutionrelative:thwebbookstore\\views\\giohang\\xacnhandonhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|c:\\users\\luong\\source\\repos\\thwebbookstore\\thwebbookstore\\views\\admin\\xoasach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|solutionrelative:thwebbookstore\\views\\admin\\xoasach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|c:\\users\\luong\\source\\repos\\thwebbookstore\\thwebbookstore\\views\\nguoidung\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|solutionrelative:thwebbookstore\\views\\nguoidung\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|c:\\users\\luong\\source\\repos\\thwebbookstore\\thwebbookstore\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|solutionrelative:thwebbookstore\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|c:\\users\\luong\\source\\repos\\thwebbookstore\\thwebbookstore\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|solutionrelative:thwebbookstore\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|c:\\users\\luong\\source\\repos\\thwebbookstore\\thwebbookstore\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|solutionrelative:thwebbookstore\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|c:\\users\\luong\\source\\repos\\thwebbookstore\\thwebbookstore\\views\\nguoidung\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|solutionrelative:thwebbookstore\\views\\nguoidung\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|c:\\users\\luong\\source\\repos\\thwebbookstore\\thwebbookstore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|solutionrelative:thwebbookstore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|c:\\users\\luong\\source\\repos\\thwebbookstore\\thwebbookstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|solutionrelative:thwebbookstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|c:\\users\\luong\\source\\repos\\thwebbookstore\\thwebbookstore\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|solutionrelative:thwebbookstore\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|C:\\Users\\luong\\source\\repos\\THWebBookStore\\thwebbookstore\\views\\admin\\thongkesach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD446820-2D2B-4340-BB6F-C060D84C5468}|THWebBookStore\\THWebBookStore.csproj|solutionrelative:thwebbookstore\\views\\admin\\thongkesach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,93 +66,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DangKy.cshtml",
-              "DocumentMoniker": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Views\\NguoiDung\\DangKy.cshtml",
-              "RelativeDocumentMoniker": "THWebBookStore\\Views\\NguoiDung\\DangKy.cshtml",
-              "ToolTip": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Views\\NguoiDung\\DangKy.cshtml",
-              "RelativeToolTip": "THWebBookStore\\Views\\NguoiDung\\DangKy.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADkAAAANAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "XoaSach.cshtml",
+              "DocumentMoniker": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Views\\Admin\\XoaSach.cshtml",
+              "RelativeDocumentMoniker": "THWebBookStore\\Views\\Admin\\XoaSach.cshtml",
+              "ToolTip": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Views\\Admin\\XoaSach.cshtml",
+              "RelativeToolTip": "THWebBookStore\\Views\\Admin\\XoaSach.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAIwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-08T09:08:17.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NguoiDungController.cs",
-              "DocumentMoniker": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Controllers\\NguoiDungController.cs",
-              "RelativeDocumentMoniker": "THWebBookStore\\Controllers\\NguoiDungController.cs",
-              "ToolTip": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Controllers\\NguoiDungController.cs",
-              "RelativeToolTip": "THWebBookStore\\Controllers\\NguoiDungController.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAiwEcAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T09:07:37.741Z",
+              "WhenOpened": "2024-11-15T09:23:08.152Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DangNhap.cshtml",
-              "DocumentMoniker": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Views\\NguoiDung\\DangNhap.cshtml",
-              "RelativeDocumentMoniker": "THWebBookStore\\Views\\NguoiDung\\DangNhap.cshtml",
-              "ToolTip": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Views\\NguoiDung\\DangNhap.cshtml",
-              "RelativeToolTip": "THWebBookStore\\Views\\NguoiDung\\DangNhap.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-08T09:06:53.095Z",
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Web.config",
+              "RelativeDocumentMoniker": "THWebBookStore\\Web.config",
+              "ToolTip": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Web.config",
+              "RelativeToolTip": "THWebBookStore\\Web.config",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwCUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-15T09:03:57.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "THWebBookStore\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "THWebBookStore\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADgAAAAAAAAAAAAswEgAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-08T09:03:55.809Z",
+              "DocumentIndex": 4,
+              "Title": "web.config",
+              "DocumentMoniker": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Views\\web.config",
+              "RelativeDocumentMoniker": "THWebBookStore\\Views\\web.config",
+              "ToolTip": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Views\\web.config",
+              "RelativeToolTip": "THWebBookStore\\Views\\web.config",
+              "ViewState": "AgIAABMAAAAAAAAAAAD4vwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-15T09:03:48.965Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "XacNhanDonHang.cshtml",
-              "DocumentMoniker": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Views\\GioHang\\XacNhanDonHang.cshtml",
-              "RelativeDocumentMoniker": "THWebBookStore\\Views\\GioHang\\XacNhanDonHang.cshtml",
-              "ToolTip": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Views\\GioHang\\XacNhanDonHang.cshtml",
-              "RelativeToolTip": "THWebBookStore\\Views\\GioHang\\XacNhanDonHang.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "THWebBookStore\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "THWebBookStore\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-08T08:49:47.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DatHang.cshtml",
-              "DocumentMoniker": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Views\\GioHang\\DatHang.cshtml",
-              "RelativeDocumentMoniker": "THWebBookStore\\Views\\GioHang\\DatHang.cshtml",
-              "ToolTip": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Views\\GioHang\\DatHang.cshtml",
-              "RelativeToolTip": "THWebBookStore\\Views\\GioHang\\DatHang.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADcAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-08T08:42:32.281Z",
+              "WhenOpened": "2024-11-15T09:01:59.149Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GioHangController.cs",
-              "DocumentMoniker": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Controllers\\GioHangController.cs",
-              "RelativeDocumentMoniker": "THWebBookStore\\Controllers\\GioHangController.cs",
-              "ToolTip": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Controllers\\GioHangController.cs",
-              "RelativeToolTip": "THWebBookStore\\Controllers\\GioHangController.cs",
-              "ViewState": "AgIAAI8AAAAAAAAAAAAewJYAAAAmAAAAAAAAAA==",
+              "Title": "themMoiSach.cshtml",
+              "DocumentMoniker": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Views\\Admin\\themMoiSach.cshtml",
+              "RelativeDocumentMoniker": "THWebBookStore\\Views\\Admin\\themMoiSach.cshtml",
+              "ToolTip": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Views\\Admin\\themMoiSach.cshtml",
+              "RelativeToolTip": "THWebBookStore\\Views\\Admin\\themMoiSach.cshtml",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAIwMgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T08:40:48.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sach.cshtml",
+              "DocumentMoniker": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Views\\Admin\\Sach.cshtml",
+              "RelativeDocumentMoniker": "THWebBookStore\\Views\\Admin\\Sach.cshtml",
+              "ToolTip": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Views\\Admin\\Sach.cshtml",
+              "RelativeToolTip": "THWebBookStore\\Views\\Admin\\Sach.cshtml",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAIwGMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T07:53:59.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ThongKeSach.cshtml",
+              "DocumentMoniker": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Views\\Admin\\ThongKeSach.cshtml",
+              "RelativeDocumentMoniker": "THWebBookStore\\Views\\Admin\\ThongKeSach.cshtml",
+              "ToolTip": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Views\\Admin\\ThongKeSach.cshtml",
+              "RelativeToolTip": "THWebBookStore\\Views\\Admin\\ThongKeSach.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAIwD8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T07:00:16.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "THWebBookStore\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\luong\\source\\repos\\THWebBookStore\\THWebBookStore\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "THWebBookStore\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAIwKkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T08:36:52.287Z",
+              "WhenOpened": "2024-11-15T06:59:08.981Z",
               "EditorCaption": ""
             }
           ]

@@ -1,0 +1,48 @@
+﻿@model THWebBookStore.Models.SACH
+
+@{
+    ViewBag.Title = "XoaSach";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+<link href="~/Content/css/XoaSach.css" rel="stylesheet" />
+<h2 style="text-align: center">Xác nhận thông tin sách cần xóa</h2>
+<div class="delete-confirmation">
+    <hr />
+    <dl class="details-list">
+        <dt>Tên sách:</dt>
+        <dd>@Html.DisplayFor(model => model.Tensach)</dd>
+
+        <dt>Giá bán:</dt>
+        <dd>@String.Format("{0:0,0}", Model.Giaban) VNĐ</dd>
+
+        <dt>Mô tả:</dt>
+        <dd class="description">@Html.DisplayFor(model => model.Mota)</dd>
+
+        <dt>Ảnh bìa:</dt>
+        <dd>
+            <img src="@Url.Content("~/Content/img/"+Model.Anhbia)" alt="Ảnh bìa sách" class="book-cover" />
+        </dd>
+
+        <dt>Ngày cập nhật:</dt>
+        <dd>@String.Format("{0:dd/MM/yyyy}", Model.Ngaycapnhat)</dd>
+
+        <dt>Số lượng tồn:</dt>
+        <dd>@Html.DisplayFor(model => model.Soluongton)</dd>
+
+        <dt>Chủ đề:</dt>
+        <dd>@Html.DisplayFor(model => model.CHUDE.TenChuDe)</dd>
+
+        <dt>Nhà xuất bản:</dt>
+        <dd>@Html.DisplayFor(model => model.NHAXUATBAN.TenNXB)</dd>
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions">
+            <input type="submit" value="Xóa" class="btn btn-danger" /> |
+            @Html.ActionLink("Quay lại", "Sach", new { @class = "btn btn-secondary" })
+        </div>
+    }
+</div>

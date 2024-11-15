@@ -1,0 +1,47 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glassmorphism Login Form | CodingNepal</title>
+    <link href="~/Content/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="wrapper">
+            <h2>Đăng nhập</h2>
+            <!-- Hiển thị thông báo lỗi chung nếu có -->
+            <p style="color: red;">@ViewBag.ThongBao</p>
+            @using (Html.BeginForm())
+            {
+                @Html.ValidationSummary(true)
+                <div class="input-field">
+                    <input type="text" name="username">
+                    <label>User name</label>
+                    <!-- Hiển thị lỗi tên đăng nhập -->
+                    <p style="color: red;">@ViewData["Loi1"]</p>
+                </div>
+                <div class="input-field">
+                    <input type="password" name="password">
+                    <label>Password</label>
+                    <!-- Hiển thị lỗi mật khẩu -->
+                    <p style="color: red;">@ViewData["Loi2"]</p>
+                </div>
+                <div class="forget">
+                    <label for="remember">
+                        <input type="checkbox" id="remember">
+                        <p>Remember me</p>
+                    </label>
+                    <a href="#">Forgot password?</a>
+                </div>
+                <button type="submit">Log In</button>
+                <div class="register">
+                    <p>Don't have an account? <a href="#">Register</a></p>
+                </div>
+            }
+    </div>
+</body>
+</html>

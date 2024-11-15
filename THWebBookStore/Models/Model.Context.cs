@@ -34,5 +34,6 @@ namespace THWebBookStore.Models
         public DbSet<sysdiagram> sysdiagrams { get; set; }
         public DbSet<TACGIA> TACGIAs { get; set; }
         public DbSet<VIETSACH> VIETSACHes { get; set; }
+        public DbSet<ADMIN> ADMINs { get; set; }
     }
 }

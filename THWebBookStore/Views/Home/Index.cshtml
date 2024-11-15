@@ -97,12 +97,12 @@
                         }
                     </div>
                 </div>
-                @*<div style="display: flex; justify-content: center;">
+                <div style="display: flex; justify-content: center;">
                     Trang @(Model.PageCount<Model.PageNumber?0:Model.PageNumber)/@Model.PageCount
                 </div>
                 <div class="MenuTrang">
                     @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
-                </div>*@
+                </div>
             </div>
         </div>
     </div>

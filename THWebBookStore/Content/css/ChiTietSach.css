@@ -1,0 +1,62 @@
+﻿/* ChiTietSach.css */
+.book-details {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.book-info {
+    margin-bottom: 30px;
+}
+
+.details-list {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+dt {
+    font-weight: bold;
+    color: #333;
+}
+
+dd {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+}
+
+.description {
+    width: 600px;
+    text-align: justify;
+}
+
+.book-cover {
+    width: 120px;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .actions a {
+        font-size: 16px;
+        color: #0066cc;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+        .actions a:hover {
+            text-decoration: underline;
+            color: #004080;
+        }
